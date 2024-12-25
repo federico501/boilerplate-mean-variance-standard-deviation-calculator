@@ -1,6 +1,6 @@
 import numpy as np
 
-ddef calculate(numbers):
+def calculate(numbers):
     # Validar que la lista contiene exactamente 9 números
     if len(numbers) != 9:
         raise ValueError("List must contain nine numbers.")
